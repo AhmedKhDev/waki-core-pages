@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>WAKI Core Privacy Policy</title>
+<style>
+  :root {
+    --bg: #F0F4F9; --card: #FFFFFF; --text: #0D2B5E; --muted: #6B7280;
+    --link: #2260B8; --accent: #E8922D; --rule: #E0EDFB;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B1121; --card: #0E1628; --text: #E0EDFB; --muted: #B8BCC5;
+      --link: #8AB5EA; --accent: #F0AC55; --rule: #133A7C;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 760px; margin: 32px auto; padding: 32px 24px;
+    background: var(--card); border-radius: 16px;
+    border-top: 4px solid var(--accent);
+  }
+  @media (max-width: 800px) { main { margin: 0; border-radius: 0; padding: 24px 16px; } }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  .meta, footer { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--link); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--rule); }
+  nav { margin-bottom: 16px; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../">WAKI Core</a> · <a href="../support/">Support</a></nav>
+<h1>WAKI Core Privacy Policy</h1>
+<p class="meta">Last updated 2026-10-26</p>
+
+<p>WAKI Core is the internal management app of Wakid Pharmaceutical Industries.
+This policy says what the app collects, why, who processes it for us, how long
+we keep it and how to have it deleted.</p>
+
+<h2>Who is responsible</h2>
+<p>Wakid Pharmaceutical Industries is the controller of the data WAKI Core
+collects. Questions about this policy go to
+<a href="mailto:reg.export@wakipharma.com">reg.export@wakipharma.com</a>.</p>
+
+<h2>Who can use the app</h2>
+<p>WAKI Core is for the company's own staff. Only people given an account by a
+WAKI Core admin can sign in; there is no public sign-up, and the app offers
+nothing to anyone without an account.</p>
+
+<h2>What we collect and why</h2>
+<p>Everything below is used only to make the app work for the people who use
+it. It is linked to the account that entered or caused it.</p>
+<table>
+  <thead><tr><th>Data</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Personal information: your name, email address, phone number and
+        user ID</td>
+      <td>To sign you in, show who did what, and reach you through the app.</td>
+    </tr>
+    <tr>
+      <td>Employment records that HR staff type in about people (for example
+        contracts and attendance)</td>
+      <td>To run the company's HR work inside the app, visible only to the
+        roles allowed to see it.</td>
+    </tr>
+    <tr>
+      <td>Photos and files you upload</td>
+      <td>To keep the documents and pictures that belong to the company's
+        records.</td>
+    </tr>
+    <tr>
+      <td>KAI's messages: the questions you ask KAI, the app's assistant, and
+        its answers</td>
+      <td>To answer your question. KAI asks for your permission once before
+        your first message is sent to its model provider.</td>
+    </tr>
+    <tr>
+      <td>Crash diagnostics: what the app was doing when an error happened,
+        linked to your user ID, with your IP address removed</td>
+      <td>To find and fix errors.</td>
+    </tr>
+    <tr>
+      <td>Your device's push token</td>
+      <td>To deliver the app's notifications to your device.</td>
+    </tr>
+  </tbody>
+</table>
+<p>The app collects nothing else: no location, no contacts, no advertising
+identifier and no browsing history.</p>
+
+<h2>Who processes it for us</h2>
+<p>These services handle the data above on our behalf, only to provide the app.
+All data travels encrypted (HTTPS).</p>
+<ul>
+  <li><strong>Supabase</strong>: the app's database, sign-in and file storage.</li>
+  <li><strong>Sentry</strong>: crash diagnostics.</li>
+  <li><strong>Google Firebase</strong>: delivering push notifications.</li>
+  <li><strong>Groq</strong>, or <strong>Anthropic</strong> when the company sets
+    KAI to one of its models: the model provider that answers KAI's
+    messages.</li>
+</ul>
+
+<h2>Not sold, not shared, not tracked</h2>
+<p>Your data is not sold, not shared with anyone for their own purposes, and
+not used for tracking or advertising. The app contains no advertising or
+analytics trackers.</p>
+
+<h2>How long we keep it</h2>
+<ul>
+  <li>Account details and the company's records (including employment records,
+    photos and files) are kept while they are part of the company's records,
+    and deleted when the company no longer needs them or on request.</li>
+  <li>The text of KAI's messages is deleted after 30 days; a record of each
+    question without its text, used to enforce usage limits, after 90 days.</li>
+  <li>Crash diagnostics are deleted by Sentry within 90 days.</li>
+  <li>The push token is removed when you sign out, or replaced when your device
+    issues a new one.</li>
+</ul>
+
+<h2>Deleting your data</h2>
+<p>To have your account and the data linked to it deleted, write to
+<a href="mailto:reg.export@wakipharma.com">reg.export@wakipharma.com</a> from
+the address on your account. We will confirm when it is done. Records the
+company must keep by law are kept for the period the law requires.</p>
+
+<h2>Changes and contact</h2>
+<p>When this policy changes, the date above changes with it. For any question
+about your data, write to
+<a href="mailto:reg.export@wakipharma.com">reg.export@wakipharma.com</a>.</p>
+
+<footer>© Wakid Pharmaceutical Industries</footer>
+</main>
+</body>
+</html>
